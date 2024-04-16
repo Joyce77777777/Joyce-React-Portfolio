@@ -40,7 +40,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 https://joyce-react-portfolio.netlify.app/
 
 ## GitHub Repository:
-https://github.com/Joyce77777777/Joyce-React-Portfolio
+https://joyce-react-portfolio.netlify.app/joyce-react-portfolio
 
 ## Installation Process:
 1. Clone the Repository from GitHub 
