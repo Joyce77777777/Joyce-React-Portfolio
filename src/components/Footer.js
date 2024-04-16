@@ -11,12 +11,12 @@ const socials = [
     color: "white",
   },
   {
-    url: "https://www.linkedin.com/in/joyce-z-275b55194/",
+    url: "https://www.linkedin.com/",
     icon: faLinkedin,
     color: "white",
   },
   {
-    url: "https://www.threads.net/@jianing_j",
+    url: "https://www.threads.net/",
     icon: faThreads,
     color: "white",
   },
