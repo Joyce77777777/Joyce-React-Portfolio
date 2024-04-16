@@ -27,7 +27,7 @@ function About() {
                   I am a finance professional whose career spans across public accounting, financial management, and risk control. With an educational foundation in financial accounting and management from prestigious institutions, my expertise extends from internal audits to sophisticated financial analyses.
                 </Card.Text>
                 <Card.Text>
-                  My education at Queen Mary University of London and Ningbo Nottingham University was crucial, but diving into a Full Stack Developer Coding Bootcamp at the University of Toronto also refined my technical acumen, equipping me with skills in Quickbooks, Sage, Excel, and several programming languages which enhance my data-driven approach to financial management.
+                  My education at University was crucial, but diving into a Full Stack Developer Coding Bootcamp also refined my technical acumen, equipping me with skills in Quickbooks, Sage, Excel, and several programming languages which enhance my data-driven approach to financial management.
                 </Card.Text>
                 <Card.Text>
                   Beyond number crunching, my experiences in various accounting and finance roles have ingrained a deep understanding of regulatory compliances, risk assessment, and strategic planning. My philosophy is centered around precision and ethics, ensuring accuracy and integrity in all financial records and reports.
