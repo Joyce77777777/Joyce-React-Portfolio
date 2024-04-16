@@ -1,6 +1,6 @@
 // Import necessary React libraries and components
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Header from "./components/Header";
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -11,15 +11,17 @@ import Footer from './components/Footer';
 // Import Bootstrap and custom CSS styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style/App.css";
+
 // Define the App component
 function App() {
   return (
     <div className="App">
       <Router>
-      <Header/>
+        <Header/>
         <div className="container mt-5">
           <Routes>
-            <Route path="/Joyce-React-Portfolio/" element={<About />} />
+            <Route path="/" element={<Navigate replace to="/Joyce-React-Portfolio/about" />} />
+            <Route path="/Joyce-React-Portfolio/" element={<Navigate replace to="/Joyce-React-Portfolio/about" />} />
             <Route path="/Joyce-React-Portfolio/about" element={<About />} />
             <Route path="/Joyce-React-Portfolio/portfolio" element={<Portfolio />} />
             <Route path="/Joyce-React-Portfolio/contact" element={<Contact />} />
@@ -31,4 +33,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
